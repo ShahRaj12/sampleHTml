@@ -31,7 +31,7 @@
   };
 
   window.addEventListener("DOMContentLoaded", () => {
-    const hostname = window.location.hostname;
+    const hostname = window.location.href;
 
     registerHostname(hostname);
     setupDailyVerification(hostname);
